@@ -25,8 +25,8 @@ def recursivity(list_number, list_number_used, max_sum = 0 , list_max_sum = [], 
     max_sum             int         The max sum find by the algorithm
     list_max_sum        list        The list of the max sum.
 
-    max_lenght          int         The max sum find by the algorithm
-    list_max_lenght     list        The list of the max sum
+    max_lenght          int         The max lenght find by the algorithm
+    list_max_lenght     list        The list of the max lenght
     '''
 
     if len(list_number) > 0:
