@@ -57,7 +57,7 @@ def recursivity(list_number, list_number_used, max_sum = 0 , list_max_sum = [], 
                         break
                 copy_list_number_used = list_number_used.copy() 
                 copy_list_number_used.append(number_test)
-                max_sum, list_max_sum, max_lenght, list_max_lenght = recursivity(copy_list_number, copy_list_number_used, max_sum, list_max_sum)
+                max_sum, list_max_sum, max_lenght, list_max_lenght = recursivity(copy_list_number, copy_list_number_used, max_sum, list_max_sum, max_lenght, list_max_lenght)
 
     #No possibility for this branch.
 
