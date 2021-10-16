@@ -61,6 +61,8 @@ def recursivity(list_number, list_number_used, max_sum = 0 , list_max_sum = [], 
 
     #No possibility for this branch.
 
+    #print(list_number_used)
+
     sum = 0
     for i in list_number_used:
         sum += i
