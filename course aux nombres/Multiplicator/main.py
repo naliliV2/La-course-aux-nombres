@@ -1,4 +1,4 @@
-    import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 def main():
     nb = int(input("Donner un nombre \n>>> "))
@@ -20,5 +20,5 @@ def main():
 
     plt.show()
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
