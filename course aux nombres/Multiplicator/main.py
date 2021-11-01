@@ -1,4 +1,4 @@
-    import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 
 def main():
     nb = int(input("Donner un nombre \n>>> "))
@@ -16,9 +16,9 @@ def main():
                 if j % i == 0:
                     plt.scatter(str(j), str(i), color="blue")
             elif i == j:
-                plt.scatter(str(j), str(i), color="white")
+                plt.scatter(str(j), str(i), color="gray")
 
     plt.show()
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
