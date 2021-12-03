@@ -89,7 +89,7 @@ def main():
         copy_list_number.pop(first_number-1) #-1 parce que l'array est à 0
 
         max_sum, list_max_sum, max_lenght, list_max_lenght = recursivity(copy_list_number, list_number_used = [first_number])
-        print("sum :", max_sum, list_max_sum)
+        #print("sum :", max_sum, list_max_sum)
         print("lenght:", max_lenght, list_max_lenght)
 
 if __name__ == "__main__":
